@@ -56,38 +56,56 @@
 
 // Arithmetic Operators
 
-let num1 = 2, num2 = 3, num3 = 5
+// let num1 = 2, num2 = 3, num3 = 5
 
-// +
-console.log(10 + 5)
-console.log(num1 + num2)
+// // +
+// console.log(10 + 5)
+// console.log(num1 + num2)
 
-// -
-console.log(10 - 5)
-console.log(num2 -num1)
+// // -
+// console.log(10 - 5)
+// console.log(num2 -num1)
 
-// *
-console.log(2 * 10)
-console.log(num2 * num3)
+// // *
+// console.log(2 * 10)
+// console.log(num2 * num3)
 
-// /
-console.log(10 / 2)
-console.log(num3 / num2)
+// // /
+// console.log(10 / 2)
+// console.log(num3 / num2)
 
-// **
-console.log(2 ** 3) 
-console.log(num2 ** num1)
+// // **
+// console.log(2 ** 3) 
+// console.log(num2 ** num1)
 
-// %
-console.log(6%2)
-console.log(num3 % num2)
+// // %
+// console.log(6%2)
+// console.log(num3 % num2)
 
-// ++
-console.log(num1++) // Postfix increment
-console.log(num1) // Pre-increment
-console.log(++num1) // Post-decrement
+// // ++
+// console.log(num1++) // Postfix increment
+// console.log(num1) // Pre-increment
+// console.log(++num1) // Post-decrement
 
-// --
-console.log(num2--) // Postfix decrement
-console.log(num2) // Pre-decrement
-console.log(--num2) // Post-decrement
+// // --
+// console.log(num2--) // Postfix decrement
+// console.log(num2) // Pre-decrement
+// console.log(--num2) // Post-decrement
+
+// num1 += num2
+// console.log(num1) // Compound assignment with addition
+
+// // Conditional Statements
+
+let num1 = 10, num2 = 50;
+
+console.log("num1 is less than num2");
+
+if (num1 > num2) {
+    console.log("num1 is greater than num2");
+} else if (num1 === num2) {
+    console.log("num1 is equal to num2");
+}
+else {
+    console.log("num1 is less than num2");
+}
