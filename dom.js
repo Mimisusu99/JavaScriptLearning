@@ -24,3 +24,13 @@
 // let el = document.getElementById("input")
 // Input.style.borderColor = "red"
 // input.style.color = "blue"
+
+// ADDING AND DELETING ELEMENTS
+
+const pElement = document.createElement("p")
+const divEl = document.getElementById("div-1")
+
+divEl.appendChild(pElement)
+pElement.innerHTML = "P, Punteun"
+
+divEl.removeChild(pElement)
