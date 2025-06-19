@@ -148,31 +148,34 @@
 //     console.log("var3 is less than or equal to var4")
 // }
 
-// Logical Operators
+// // Logical Operators
 
-let var1 = 10, var2 = 20, var3 = 30
+// let var1 = 10, var2 = 20, var3 = 30
 
-if (!(var1 > var2) && (var2 < var3)) {
-    console.log("Both conditions are true")
-}
-if (var1 < var2 || var2 < var3) {
-    console.log("At least one condition is true")
-}
-if (var1 < var2 && var2 < var3) {
-    console.log("All conditions are true")
-}
-if (var1 > var2 || var2 > var3) {
-    console.log("At least one condition is true")
-}
-if (!(var1 < var2) && !(var2 < var3)) {
-    console.log("Both conditions are false")
-}
-if (!(var1 > var2) || !(var2 < var3)) {
-    console.log("At least one condition is false")
-}
-if (!(var1 < var2) && !(var2 > var3)) {
-    console.log("Both conditions are false")
-}
-if (!(var1 > var2) || !(var2 > var3)) {
-    console.log("At least one condition is false")
-}
+// if (!(var1 > var2) && (var2 < var3)) {
+//     console.log("Both conditions are true")
+// }
+// if (var1 < var2 || var2 < var3) {
+//     console.log("At least one condition is true")
+// }
+// if (var1 < var2 && var2 < var3) {
+//     console.log("All conditions are true")
+// }
+// if (var1 > var2 || var2 > var3) {
+//     console.log("At least one condition is true")
+// }
+// if (!(var1 < var2) && !(var2 < var3)) {
+//     console.log("Both conditions are false")
+// }
+// if (!(var1 > var2) || !(var2 < var3)) {
+//     console.log("At least one condition is false")
+// }
+// if (!(var1 < var2) && !(var2 > var3)) {
+//     console.log("Both conditions are false")
+// }
+// if (!(var1 > var2) || !(var2 > var3)) {
+//     console.log("At least one condition is false")
+// }
+
+//FUNCTION
+
